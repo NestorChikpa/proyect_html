@@ -1,0 +1,61 @@
+/* Esto es la parte de la barra */
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(135deg,#00B7D4, #505488, 
+    #2F3F80, #161569, #5A4894, #A950A1, #FF7CAE);
+    background-size: 500%;
+    animation: fanimado 60s infinite;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #FF9E00;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align:center;
+}
+.menu li a:hover{
+    background: #FF7F00;
+    transition: 0.8s ease;
+}
+/* Fin de la barra */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* aqui va el fondo */
+}   
+.wraper{
+    margin: 150px auto;
+    width: 70%;
+}
+img{
+    max-width: 320px;
+    float: left;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.text-box{
+    color: #e8e8e8;
+}
+.text-box h2{
+    font-size: 42px;
+}
