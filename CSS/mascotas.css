@@ -564,7 +564,7 @@ body{
     transform: perspective(600px) translateX(60%);
 }
 .foto11 .imgcaja11 img{
-    width: 90%;
+    width: 100%;
 }
 /* **********************Inicia el 12no****************** */
 .foto12{
